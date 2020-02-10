@@ -2,15 +2,11 @@ package com.cksolutions.appintents;
 
 import android.annotation.SuppressLint;
 
-import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
-import android.os.Handler;
-import android.view.MotionEvent;
-import android.view.View;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 
@@ -33,10 +29,10 @@ public class GenderActivity extends AppCompatActivity {
 
         if (isMen){
             llayout.setBackgroundColor(Color.BLUE);
-            ivImagen.setImageResource(R.mipmap.ic_launcher_round);
+            ivImagen.setImageResource(R.mipmap.male_icon);
         }else {
             llayout.setBackgroundColor(Color.RED);
-            ivImagen.setImageResource(R.mipmap.ic_launcher);
+            ivImagen.setImageResource(R.mipmap.female_icon);
         }
 
 
